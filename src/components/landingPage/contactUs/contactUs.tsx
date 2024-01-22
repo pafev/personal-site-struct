@@ -23,7 +23,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section className="flex w-full self-center pt-20" id="contato">
+    <section className="flex w-full self-center pt-40" id="contato">
       <div className="flex flex-col h-[35rem] w-full items-start justify-center bg-gradient-to-br from-sky-700 via-sky-900 to-sky-900 px-8">
         <h1 className="w-[40%] text-6xl font-bold mb-4">
           Entre em contato com a gente

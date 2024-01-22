@@ -3,7 +3,7 @@ import CloudinaryImg from "../ui/cloudinaryImg";
 
 export default function Footer() {
     return (
-        <footer className="mt-32 flex justify-around items-center py-10">
+        <footer className="mt-40 flex justify-around items-center py-10">
             <div className="flex gap-4">
                 <Instagram />
                 <Facebook />

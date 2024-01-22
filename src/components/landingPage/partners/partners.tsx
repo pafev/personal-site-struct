@@ -3,7 +3,7 @@ import CloudinaryImg from "~/components/ui/cloudinaryImg";
 export default function Partners() {
   return (
     <section
-      className="flex w-[75%] flex-col items-center self-center rounded-xl pt-40"
+      className="flex w-[75%] flex-col items-center self-center rounded-xl pt-52"
       id="parceiros"
     >
       <h1 className="my-8 text-2xl font-bold">Conheça nossos parceiros</h1>
