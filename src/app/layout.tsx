@@ -4,6 +4,7 @@ import { Abel as FontSans } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import Navbar from "~/components/navbar/navbar";
+import Footer from "~/components/footer/footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -22,10 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`${fontSans.className} bg-zinc-900 text-zinc-100`}>
+      <body className={`${fontSans.className} bg-gradient-to-br from-zinc-900 via-slate-900 to-sky-900 text-zinc-100`}>
         <TRPCReactProvider>
           <Navbar />
           {children}
+          <Footer/>
         </TRPCReactProvider>
       </body>
     </html>

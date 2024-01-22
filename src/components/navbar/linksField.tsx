@@ -5,7 +5,7 @@ export default function LinksField() {
     <ul className="ml-12 flex w-full gap-8 self-center text-zinc-400">
       <li>
         <Link
-          href="/"
+          href="/#quem-somos"
           className="transition-all ease-in-out hover:text-zinc-100"
         >
           Quem somos
@@ -13,7 +13,7 @@ export default function LinksField() {
       </li>
       <li>
         <Link
-          href="/"
+          href="/#o-que-fazemos"
           className="transition-all ease-in-out hover:text-zinc-100"
         >
           O que fazemos
@@ -21,7 +21,7 @@ export default function LinksField() {
       </li>
       <li>
         <Link
-          href="/"
+          href="/#como-fazemos"
           className="transition-all ease-in-out hover:text-zinc-100"
         >
           Como fazemos
@@ -29,18 +29,10 @@ export default function LinksField() {
       </li>
       <li>
         <Link
-          href="/"
+          href="/#parceiros"
           className="transition-all ease-in-out hover:text-zinc-100"
         >
           Parceiros
-        </Link>
-      </li>
-      <li>
-        <Link
-          href="/"
-          className="transition-all ease-in-out hover:text-zinc-100"
-        >
-          Serviços
         </Link>
       </li>
       <li>
