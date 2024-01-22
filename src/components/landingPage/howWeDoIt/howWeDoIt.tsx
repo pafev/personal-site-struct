@@ -31,7 +31,7 @@ export default function HowWeDoIt() {
         </motion.p>
       </div>
       <CloudinaryImg
-        src="office-blue_hc5itq"
+        src="office-blue_eyllbs"
         alt="office2"
         width={550}
         height={550}
