@@ -23,7 +23,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section className="flex w-full self-center pt-40" id="contato">
+    <section className="flex w-full self-center pt-28" id="contato">
       <div className="flex flex-col h-[35rem] w-full items-start justify-center bg-gradient-to-br from-sky-700 via-sky-900 to-sky-900 px-8">
         <h1 className="w-[40%] text-6xl font-bold mb-4">
           Entre em contato com a gente
@@ -95,7 +95,7 @@ export default function ContactUs() {
             Descrição
           </label>
           <input
-            placeholder="Nome completo"
+            placeholder="Descrição do projeto"
             name="description"
             id="description"
             onChange={onChange}
@@ -107,14 +107,15 @@ export default function ContactUs() {
             Orçamento
           </label>
           <input
-            placeholder="Nome completo"
+            placeholder="Orçamento"
             name="budget"
             id="budget"
             onChange={onChange}
+            type="number"
             className="w-[30rem] rounded px-4 py-2 outline-none"
           />
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" className="self-center outline-none font-bold text-zinc-900/80 hover:text-zinc-900 transition-all ease-in-out text-xl mt-4">Enviar</button>
       </form>
     </section>
   );
