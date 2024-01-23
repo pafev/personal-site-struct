@@ -19,11 +19,7 @@ export default function OurServices() {
       >
         Nossos serviços
       </motion.h1>
-      <motion.div
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: 100 }}
-        transition={{ duration: 0.5, delay: 0.1 }}
+      <div
         className="text-lg w-full"
       >
         <Accordion type="single" collapsible>
@@ -50,7 +46,7 @@ export default function OurServices() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </motion.div>
+      </div>
     </div>
   );
 }
