@@ -2,7 +2,7 @@ import StackCard from "./stackCard";
 
 export default function OurStack() {
   return (
-    <section className="my-8 flex justify-center gap-14 font-semibold">
+    <section className="my-8 px-4 flex flex-wrap justify-center gap-14 font-semibold">
       <StackCard
         stackImgSrc="nextjs-boilerplate-logo_j1ysaq"
         stackName="Next.js"

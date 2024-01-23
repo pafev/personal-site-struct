@@ -9,13 +9,13 @@ import { motion } from "framer-motion";
 
 export default function OurServices() {
   return (
-    <div className="flex flex-col items-start">
+    <div className="flex flex-col items-start max-w-[30rem] w-full  ">
       <motion.h1
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5 }}
-        className="mb-10 border-b-[2px] py-2 text-xl font-semibold"
+        className="w-full mb-10 border-b-[2px] py-2 text-xl font-semibold"
       >
         Nossos serviços
       </motion.h1>
@@ -24,7 +24,7 @@ export default function OurServices() {
         whileInView={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="w-[30rem] text-lg"
+        className="text-lg w-full"
       >
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
