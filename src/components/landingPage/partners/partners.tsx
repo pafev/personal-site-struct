@@ -7,7 +7,7 @@ export default function Partners() {
       id="parceiros"
     >
       <h1 className="my-8 text-2xl font-bold">Conheça nossos parceiros</h1>
-      <div className="mb-10 flex flex-wrap gap-8">
+      <div className="mb-10 flex justify-center flex-wrap gap-8">
         <CloudinaryImg
           src="logo-UnB_wq1cfh"
           alt="logo-unb"
