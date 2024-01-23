@@ -1,14 +1,14 @@
-"use client"
+"use client";
 import { motion } from "framer-motion";
 
 export default function WhoWeAreText() {
   return (
     <motion.div
-      initial={{ opacity: 0, x: 100 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: 100 }}
+      initial={{ opacity: "var(--opacity-from)", x: "var(--x-from)" }}
+      whileInView={{ opacity: "var(--opacity-to)", x: "var(--x-to)" }}
+      exit={{ opacity: "var(--opacity-from)", x: "var(--x-from)" }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col justify-center"
+      className="flex-col flex justify-center lg:[--opacity-from:0%] lg:[--opacity-to:100%] lg:[--x-from:100px] lg:[--x-to:0px]"
     >
       <h1 className="text-xl font-bold text-cyan-500">Quem somos</h1>
       <h1 className="text-5xl font-bold">Explicação bonita de quem somos</h1>
