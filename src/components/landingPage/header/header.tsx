@@ -14,7 +14,6 @@ export default function Header() {
         alt="web-asset"
         width={500}
         height={500}
-        dpr={"auto"}
         className="hidden md:block"
       />
     </section>
