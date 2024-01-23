@@ -24,7 +24,7 @@ export default function ContactUsForm() {
 
   return (
     <form
-      className="xl:absolute max-w-full self-center right-48 mt-20 flex flex-col gap-4 rounded-lg bg-zinc-100 p-10 shadow-lg shadow-sky-500"
+      className="xl:absolute min-w-[20rem] self-center right-48 mt-20 flex flex-col gap-4 rounded-lg bg-zinc-100 p-10 shadow-lg shadow-sky-500"
       onSubmit={onSubmit}
     >
       <div className="flex flex-col text-lg text-zinc-900">
