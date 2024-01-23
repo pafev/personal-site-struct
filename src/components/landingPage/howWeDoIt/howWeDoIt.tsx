@@ -7,7 +7,7 @@ export default function HowWeDoIt() {
       className="flex w-[90%] items-center flex-col-reverse lg:flex-row justify-around self-center pt-40"
       id="como-fazemos"
     >
-      <div className="absolute right-0 -z-10 lg:mt-[25rem] h-[20rem] w-[15rem] rounded-s-[30%] bg-gradient-to-bl from-sky-600 via-sky-700 to-sky-900"></div>
+      <div className="absolute right-0 -z-10 lg:mt-[25rem] h-[19rem] sm:h-[20rem] w-full sm:w-[15rem] sm:rounded-s-[30%] bg-gradient-to-bl from-sky-600 via-sky-700 to-sky-900"></div>
       <HowWeDoItText />
       <CloudinaryImg
         src="office-blue_eyllbs"
